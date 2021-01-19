@@ -23,4 +23,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
       - name: mvn build
-        run: mvn clean install -Djib.skip -B
+        run: ./mvnw clean install -Djib.skip -B
