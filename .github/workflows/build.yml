@@ -13,8 +13,6 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-          java-package: jdk
-          architecture: x64
       - name: Cache local Maven repository
         uses: actions/cache@v2
         with:
